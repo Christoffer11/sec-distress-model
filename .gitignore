@@ -220,3 +220,29 @@ __marimo__/
 # Folders
 /data
 data/*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# SEC raw data
+data/raw/**
+
+# Generated tables
+data/base/**
+data/abt/**
+data/samples/**
+data/prototype/**
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/base/.gitkeep
+!data/abt/.gitkeep
+!data/samples/.gitkeep
+
+# Local notebooks
+.ipynb_checkpoints/
