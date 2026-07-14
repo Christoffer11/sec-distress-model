@@ -246,3 +246,7 @@ data/prototype/**
 
 # Local notebooks
 .ipynb_checkpoints/
+
+# 
+/.tmp
+.tmp/*
